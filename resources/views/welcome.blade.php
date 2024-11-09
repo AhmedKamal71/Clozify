@@ -9,6 +9,10 @@
 
     </head>
     <body >
-       <livewire:header />
+        <livewire:header />
+        <livewire:hero-section />
+        <livewire:products-section />
+        <livewire:product-details />
+
     </body>
 </html>

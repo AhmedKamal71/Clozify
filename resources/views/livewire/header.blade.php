@@ -1,6 +1,7 @@
-<header class="bg-white shadow-sm font-bold">
+<header class="shadow-sm font-bold">
+<link href="{{ asset('css/header.css') }}" rel="stylesheet">
   <div class="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-    <a class="block text-teal-600" href="#">
+    <a class="block text-amber-400" href="#">
       <span class="sr-only">Home</span>
       <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -14,27 +15,27 @@
       <nav aria-label="Global" class="hidden md:block">
         <ul class="flex items-center gap-6 text-sm">
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+            <a class=" transition hover:text-yellow-300" href="#"> About </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+            <a class=" transition hover:text-yellow-300" href="#"> Products </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+            <a class=" transition hover:text-yellow-300" href="#"> Contacts </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
+            <a class=" transition hover:text-yellow-300" href="#"> Services </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
+            <a class=" transition hover:text-yellow-300" href="#"> Projects </a>
           </li>
 
           <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
+            <a class=" transition hover:text-yellow-300" href="#"> Blog </a>
           </li>
         </ul>
       </nav>
@@ -42,17 +43,10 @@
       <div class="flex items-center gap-4">
         <div class="sm:flex sm:gap-4">
           <a
-            class="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+            class="block rounded-md bg-white px-5 py-2 text-sm text-fuchsia-800 font-medium transition hover:bg-slate-100"
             href="#"
           >
-            Login
-          </a>
-
-          <a
-            class="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-            href="#"
-          >
-            Register
+            Get Started
           </a>
         </div>
 

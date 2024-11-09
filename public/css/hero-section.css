@@ -1,0 +1,30 @@
+.needs{
+    color: #f9f871;
+}
+
+.letUs{
+    color: #53dac4;
+}
+
+.getStarted{
+    background-color: #92598e;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.getStarted:hover{
+    background-color: #996996 ;
+    color: white;
+}
+
+.learnMore{
+    color: #92598e;
+    background-color: white;
+    font-weight: bold;
+}
+
+.learnMore:hover{
+    background-color: rgb(247, 247, 247);
+    color: #92598e;
+}
